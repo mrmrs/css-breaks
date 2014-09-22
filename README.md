@@ -14,7 +14,8 @@ View on [npm](https://www.npmjs.org/package/css-breaks)
 ## File Size
 
 1.2K breaks.css
-778B breaks.min.css
+778B breaks.min.css 
+233B minified and gzipped
 
 ## The Code
 ```
