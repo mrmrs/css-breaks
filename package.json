@@ -1,38 +1,44 @@
 {
   "name": "css-breaks",
-  "style": "breaks.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-breaks",
-  "description": "Css module of single purpose classes for breaks",
+  "version": "2.0.0",
+  "description": "Functional CSS for breaks",
+  "style": "dist/breaks.css",
+  "main": "dist/breaks.css",
+  "exports": {
+    ".": "./dist/breaks.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "breaks"
+    "breaks",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-breaks": {
+  "homepage": "https://github.com/mrmrs/css-breaks",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-breaks.git"
+    "url": "https://github.com/mrmrs/css-breaks.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-breaks/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-breaks/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
