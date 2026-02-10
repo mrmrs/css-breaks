@@ -1,24 +1,24 @@
-.ba-aut {
+.ba-auto {
   break-after: auto;
 }
 
-.ba-al {
+.ba-always {
   break-after: always;
 }
 
-.ba-l {
+.ba-lleft {
   break-after: left;
 }
 
-.ba-r {
+.ba-right {
   break-after: right;
 }
 
-.ba-rect {
+.ba-recto {
   break-after: recto;
 }
 
-.ba-vers {
+.ba-verso {
   break-after: verso;
 }
 
@@ -26,11 +26,11 @@
   break-after: page;
 }
 
-.ba-col {
+.ba-column {
   break-after: column;
 }
 
-.ba-reg {
+.ba-region {
   break-after: region;
 }
 
@@ -50,27 +50,27 @@
   break-after: avoid-region;
 }
 
-.bb-aut {
+.bb-auto {
   break-before: auto;
 }
 
-.bb-al {
+.bb-always {
   break-before: always;
 }
 
-.bb-l {
+.bb-left {
   break-before: left;
 }
 
-.bb-r {
+.bb-right {
   break-before: right;
 }
 
-.bb-rect {
+.bb-recto {
   break-before: recto;
 }
 
-.bb-vers {
+.bb-verso {
   break-before: verso;
 }
 
@@ -78,11 +78,11 @@
   break-before: page;
 }
 
-.bb-col {
+.bb-column {
   break-before: column;
 }
 
-.bb-reg {
+.bb-region {
   break-before: region;
 }
 
