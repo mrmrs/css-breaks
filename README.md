@@ -6,8 +6,8 @@ Functional CSS for breaks
 
 | File | Size |
 |------|------|
-| `dist/breaks.css` | 1051 bytes |
-| `dist/breaks.min.css` | 818 bytes (224 Gzipped) |
+| `dist/breaks.css` | 1010 bytes |
+| `dist/breaks.min.css` | 777 bytes (221 Gzipped) |
 
 ## Install
 
@@ -39,28 +39,28 @@ npm install css-breaks
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.ba-auto` | `break-after: auto;` |
-| `.ba-always` | `break-after: always;` |
-| `.ba-lleft` | `break-after: left;` |
-| `.ba-right` | `break-after: right;` |
-| `.ba-recto` | `break-after: recto;` |
-| `.ba-verso` | `break-after: verso;` |
+| `.ba-aut` | `break-after: auto;` |
+| `.ba-al` | `break-after: always;` |
+| `.ba-l` | `break-after: left;` |
+| `.ba-r` | `break-after: right;` |
+| `.ba-rect` | `break-after: recto;` |
+| `.ba-vers` | `break-after: verso;` |
 | `.ba-page` | `break-after: page;` |
-| `.ba-column` | `break-after: column;` |
-| `.ba-region` | `break-after: region;` |
+| `.ba-col` | `break-after: column;` |
+| `.ba-reg` | `break-after: region;` |
 | `.ba-avoid` | `break-after: avoid;` |
 | `.ba-avoid-page` | `break-after: avoid-page;` |
 | `.ba-avoid-column` | `break-after: avoid-column;` |
 | `.ba-avoid-region` | `break-after: avoid-region;` |
-| `.bb-auto` | `break-before: auto;` |
-| `.bb-always` | `break-before: always;` |
-| `.bb-left` | `break-before: left;` |
-| `.bb-right` | `break-before: right;` |
-| `.bb-recto` | `break-before: recto;` |
-| `.bb-verso` | `break-before: verso;` |
+| `.bb-aut` | `break-before: auto;` |
+| `.bb-al` | `break-before: always;` |
+| `.bb-l` | `break-before: left;` |
+| `.bb-r` | `break-before: right;` |
+| `.bb-rect` | `break-before: recto;` |
+| `.bb-vers` | `break-before: verso;` |
 | `.bb-page` | `break-before: page;` |
-| `.bb-column` | `break-before: column;` |
-| `.bb-region` | `break-before: region;` |
+| `.bb-col` | `break-before: column;` |
+| `.bb-reg` | `break-before: region;` |
 | `.bb-avoid` | `break-before: avoid;` |
 | `.bb-avoid-page` | `break-before: avoid-page;` |
 | `.bb-avoid-column` | `break-before: avoid-column;` |
@@ -76,7 +76,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.ba-auto-m` applies the property at the medium breakpoint and above.
+Example: `.ba-aut-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
